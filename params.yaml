@@ -1,0 +1,70 @@
+# Model parameters
+model:
+  random_state: 42
+  test_size: 0.2
+  cv_folds: 5
+  
+# LightGBM parameters
+lightgbm:
+  n_estimators: 1000
+  learning_rate: 0.05
+  max_depth: 7
+  num_leaves: 31
+  subsample: 0.8
+  colsample_bytree: 0.8
+  reg_alpha: 0.1
+  reg_lambda: 0.1
+  random_state: 42
+  n_jobs: -1
+  
+# XGBoost parameters
+xgboost:
+  n_estimators: 1000
+  learning_rate: 0.05
+  max_depth: 7
+  subsample: 0.8
+  colsample_bytree: 0.8
+  reg_alpha: 0.1
+  reg_lambda: 0.1
+  random_state: 42
+  n_jobs: -1
+  
+# CatBoost parameters
+catboost:
+  iterations: 1000
+  learning_rate: 0.05
+  depth: 7
+  l2_leaf_reg: 3
+  random_strength: 1
+  bagging_temperature: 1
+  od_type: "Iter"
+  od_wait: 50
+  random_state: 42
+  
+# Data preprocessing
+preprocessing:
+  categorical_features:
+    - "Geography"
+    - "Gender"
+  numerical_features:
+    - "CreditScore"
+    - "Age"
+    - "Tenure"
+    - "Balance"
+    - "NumOfProducts"
+    - "HasCrCard"
+    - "IsActiveMember"
+    - "EstimatedSalary"
+  drop_features:
+    - "id"
+    - "CustomerId"
+    - "Surname"
+    
+# Evaluation
+evaluation:
+  metrics:
+    - "roc_auc"
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1"
