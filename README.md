@@ -24,6 +24,26 @@ This project analyzes customer data from a bank to predict whether customers wil
 Python 3.8+
 Jupyter Notebook/Lab
 ```
+# Model Performance Report
+
+## Executive Summary
+This report summarizes the performance of machine learning models trained to predict bank customer churn. The dataset contains 165,034 customer records with a churn rate of 21.16%.
+
+## Models Evaluated
+1. **LightGBM** - Gradient boosting framework
+2. **XGBoost** - Optimized gradient boosting
+3. **CatBoost** - Categorical feature handling
+
+## Performance Metrics
+
+### ROC-AUC Scores
+| Model | ROC-AUC | Rank |
+|-------|---------|------|
+| CatBoost | 0.872 | 1 |
+| LightGBM | 0.865 | 2 |
+| XGBoost | 0.858 | 3 |
+
+### Detailed Metrics
 
 ## 📊 Dataset
 - The dataset contains customer information including:
