@@ -47,6 +47,7 @@ Jupyter Notebook/Lab
 - Churn rate: 21.16%
 
 ## 🏗️ Project Structure
+```
 bank-churn-prediction/
 │
 ├── bank_churn_dataset.ipynb      # Main Jupyter notebook
@@ -74,7 +75,7 @@ bank-churn-prediction/
 │   └── params.yaml
 └── tests/                        # Unit tests
     └── test_preprocessing.py
-
+```
  # 🔧 Implementation Details
 ## Data Preprocessing
 - Handling missing values
@@ -123,9 +124,9 @@ CatBoost	0.87	0.86	0.79	0.65
 # 👨‍💻 Author
 ## Hammad Zahid
 
-- LinkedIn: linkedin.com/in/hammad-zahid-xyz
+- LinkedIn: https//linkedin.com/in/hammad-zahid-xyz
 
-- GitHub: github.com/Hamad-Ansari
+- GitHub: https//github.com/Hamad-Ansari
 
 - Email: mrhammadzahi24@gmail.com
 
