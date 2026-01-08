@@ -1,13 +1,13 @@
 
 # Bank Customer Churn Prediction - Deep Learning Approach
-![imresizer-1706204681767.jpg](attachment:imresizer-1706204681767.jpg)
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 A comprehensive machine learning project for predicting bank customer churn using gradient boosting algorithms (LightGBM, XGBoost, CatBoost) and deep learning approaches.
-
+![imresizer-1706204681767.jpg](attachment:imresizer-1706204681767.jpg)
 ## 📋 Project Overview
 
 This project analyzes customer data from a bank to predict whether customers will churn (leave the bank). The notebook demonstrates:
