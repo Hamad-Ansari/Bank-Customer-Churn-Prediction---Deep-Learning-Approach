@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 A comprehensive machine learning project for predicting bank customer churn using gradient boosting algorithms (LightGBM, XGBoost, CatBoost) and deep learning approaches.
-![imresizer-1706204681767.jpg](attachment:imresizer-1706204681767.jpg)
+
 ## 📋 Project Overview
 
 This project analyzes customer data from a bank to predict whether customers will churn (leave the bank). The notebook demonstrates:
